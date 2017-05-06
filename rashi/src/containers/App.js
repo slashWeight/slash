@@ -10,6 +10,7 @@ var User = {
   photos: ['//example.org/photos/photo.png','//example.org/photos/photo1.png'],
   mostRecentPhoto: ['//example.org/photos/photo1.png'],
   mostRecentBodyfat: 0.25,
+  
 };
 
 class App extends Component {
