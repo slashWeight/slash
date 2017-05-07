@@ -1,31 +1,84 @@
-<!doctype html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="shortcut icon" href="%PUBLIC_URL%/favicon.ico">
-    <!--
-      Notice the use of %PUBLIC_URL% in the tag above.
-      It will be replaced with the URL of the `public` folder during the build.
-      Only files inside the `public` folder can be referenced from the HTML.
 
-      Unlike "/favicon.ico" or "favicon.ico", "%PUBLIC_URL%/favicon.ico" will
-      work correctly both with client-side routing and a non-root public URL.
-      Learn how to configure a non-root public URL by running `npm run build`.
-    -->
-    <title>React App</title>
+<!DOCTYPE HTML>
+<!--
+  Astral by HTML5 UP
+  html5up.net | @ajlkn
+  Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+  <head>
+    <title>Fit Judi</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
+    <link rel="stylesheet" href="static/css/main.css" />
+    <noscript><link rel="stylesheet" href="static/css/noscript.css" /></noscript>
+    <!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
   </head>
   <body>
-    <div id="root"></div>
-    <!--
-      This HTML file is a template.
-      If you open it directly in the browser, you will see an empty page.
 
-      You can add webfonts, meta tags, or analytics to this file.
-      The build step will place the bundled scripts into the <body> tag.
+    <!-- Wrapper-->
+      <div id="wrapper">
 
-      To begin the development, run `npm start`.
-      To create a production bundle, use `npm run build`.
-    -->
+        <!-- Nav -->
+          <nav id="nav">
+            <a href="#me" class="icon fa-camera active"><span>Home</span></a>
+            <a href="#work" class="icon fa-folder"><span>Work</span></a>
+            <a href="#contact" class="icon fa-envelope"><span>Contact</span></a>
+            <a href="#" class="icon fa-twitter"><span>Twitter</span></a>
+          </nav>  
+
+        <!-- Logo -->
+          <div id="logo">
+            <header>          
+              <img src="images\logo_mobile_100px.png" alt="" />
+            </header>
+          </div>
+
+        <!-- Main -->
+          <div id="main">
+
+            <!-- Me -->
+              <article id="me" class="panel">               
+                <a href="#work" class="jumplink pic">
+                  <span class="arrow icon fa-chevron-right"><span>See my work</span></span>
+                   <div id="root"></div>
+                </a>
+              </article>
+
+            <!-- Work -->
+              <article id="work" class="panel">
+                <header>
+                  <h2>Studio</h2>
+                </header>
+                <section>
+                  <div class="row">
+                    <div class="4u 12u$(mobile)">
+                      <a href="#" class="image fit"><img src="images/after.png" alt=""></a>
+                    </div>
+                    <div class="4u 12u$(mobile)">
+                      <a href="#" class="image fit"><img src="images/before.png" alt=""></a>
+                    </div>
+                  </div>
+                </section>
+              </article>
+
+        <!-- Footer -->
+          <div id="footer">
+            <ul class="copyright">
+              <li>&copy; Untitled.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+            </ul>
+          </div>
+
+      </div>
+
+    <!-- Scripts -->
+      <script src="assets/js/jquery.min.js"></script>
+      <script src="assets/js/skel.min.js"></script>
+      <script src="assets/js/skel-viewport.min.js"></script>
+      <script src="assets/js/util.js"></script>
+      <!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
+      <script src="assets/js/main.js"></script>
+
   </body>
 </html>
